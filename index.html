@@ -20,9 +20,9 @@
 </ul>
 
 <div class="search-container">
-    <input type="text" placeholder="Search destinations">
-    <button>Search</button>
-    <button>Clear</button>
+    <input type="text" id="searchInput" placeholder="Search destinations">
+    <button onclick="searchPlaces()">Search</button>
+    <button onclick="clearSearch()">Clear</button>
 </div>
 
 </nav>
@@ -42,7 +42,7 @@
     </p>
 </section>
 
-<section>
+<section id="beach-section">
     <h2>🏖 Beach Recommendations</h2>
 
 ```
@@ -65,7 +65,7 @@
 
 </section>
 
-<section>
+<section id="temple-section">
     <h2>🛕 Temple Recommendations</h2>
 
 ```
@@ -88,7 +88,7 @@
 
 </section>
 
-<section>
+<section id="country-section">
     <h2>🌏 Country Recommendations</h2>
 
 ```
@@ -114,6 +114,8 @@
 <footer>
     <p>© 2026 Travel Guide | Created by Amaan</p>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
